@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS SMART_DATA;
+  
+CREATE TABLE SMART_ACCOUNT (
+  account_number NUMBER AUTO_INCREMENT  PRIMARY KEY,
+  gas_id VARCHAR(250) NOT NULL,
+  elec_id VARCHAR(250) NOT NULL,
+  elec_smart_read NUMBER,
+  gas_smart_read NUMBER
+);
